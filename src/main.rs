@@ -48,6 +48,14 @@ impl Vector3D {
     }
 }
 
+struct Body {
+    mass: f64,
+    position: Vector3D,
+    velocity: Vector3D,
+    acceleration: Vector3D,
+}
+
+
 fn main() {
     println!("Hello, world!");
 }
